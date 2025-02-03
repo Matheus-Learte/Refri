@@ -1,2 +1,2 @@
 # Refri
-Implementação do circuito controlador de uma maquina de refri que recebe 4 valores: 0.10, 0.25, 0.50, 1.00. 
+Implementação do circuito controlador de uma maquina de refri que recebe 4 valores: 0.10, 0.25, 0.50, 1.00. O valor do refrigerante é  R$1.00 e para recebe-lo deve primeiro colocar o valor e depois apertar o botão. Se tiver o valor correto e apertar o botão o led que indica que o refrigerante será dado é ligado, caso seja menor outro led liga indicandoque o dinheiro será devolvido. Caso em algum momento o valor colocado ultrapasse em algum momento R$1.00 o dinheiro é devolvido no mesmo momento. 
