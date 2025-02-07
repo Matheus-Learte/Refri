@@ -42,8 +42,8 @@ architecture main of refri is
 begin
 	process(moedas, atual, button)
 	begin
-		case moedas is
-				when "0001" => prox <= atual + 10;
+	case moedas is
+	    when "0001" => prox <= atual + 10;
             when "0010" => prox <= atual + 25;
             when "0100" => prox <= atual + 50;
             when "1000" => prox <= atual + 100;
